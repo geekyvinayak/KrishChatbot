@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bot-message {
+  align-self: flex-start;
+  color: #333;
+}
+
+.user-message {
+  padding: 10px;
+  align-self: flex-end;
+  color: white;
+}
+
+/* Rich text formatting for bot messages */
+.bot-message h1,
+.bot-message h2,
+.bot-message h3,
+.bot-message h4,
+.bot-message h5,
+.bot-message h6 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  color: #333; /* Changed to black */
+  font-weight: 600;
+}
+
+.bot-message h3 {
+  font-size: 18px;
+  margin-bottom: 14px;
+  color: #333; /* Changed to black */
+  font-weight: 700;
+}
+
+.bot-message h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.bot-message ul,
+.bot-message ol {
+  margin: 12px 0;
+  padding-left: 20px;
+}
+
+.bot-message ul li,
+.bot-message ol li {
+  list-style-type: disc;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 5px;
+}
+
+.bot-message p {
+  margin: 10px 0;
+  color: #444;
+}
+
+.bot-message a {
+  color: #333; /* Changed to black */
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.bot-message a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+.bot-message a::after {
+  content: ' ↗';
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+
+.bot-message strong,
+.bot-message b {
+  font-weight: 600;
+  color: #000;
+}
+
+.bot-message em,
+.bot-message i {
+  color: #555;
+}
+
+
+
+.link-section {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  border: 1px solid #333; /* Changed to black */
+  border-radius: 4px;
+  color: #333 !important; /* Changed to black */
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.link-button:hover {
+  background-color: #f5f5f5;
+}
+
+.link-button::after {
+  content: ' ↗';
+}
