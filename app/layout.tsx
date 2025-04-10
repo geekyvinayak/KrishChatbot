@@ -6,9 +6,8 @@ import { Inter } from "next/font/google"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Animated Chatbot",
-  description: "An animated chatbot interface with smooth transitions",
-  generator: "v0.dev",
+  title: "Krish Chatbot",
+  description: "An chatbot interface with smooth transitions."
 }
 
 export default function RootLayout({
