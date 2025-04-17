@@ -42,21 +42,39 @@ export default function ChatInterface() {
   const featureCards = [
     {
       icon: "Krish Technolabs",
-      title: "Know more about us",
-      description: "Get a overview of us as an orginasition",
-      message: "Tell me something about Krish technolabs",
+      title: "Is there a limit to how many certifications I can pursue in a year?",
+      description: "",
+      message: "Is there a limit to how many certifications I can pursue in a year?",
     },
     {
       icon: "Awards",
-      title: "Awards won by Krish Technolabs",
-      description: "How many and what are the awards won by krish",
-      message: "How many and what are the awards won by krish?",
+      title: "Can I carry forward unused paid leaves to the next year? If yes, how many?",
+      description: "",
+      message: "Can I carry forward unused paid leaves to the next year? If yes, how many?",
     },
     {
-      icon: "Projects",
-      title: "Projects by krish Technolabs",
-      description: "An overview to Projects by krishtechnolabs.",
-      message: "Take me through Projects done by krishtechnolabs",
+      icon: "Awards",
+      title: "How can I share a reference?",
+      description: "",
+      message: "How can I share a reference?",
+    },
+    {
+      icon: "Awards",
+      title: "Is there a provision for work-from-home or remote working at the moment?",
+      description: "",
+      message: "Is there a provision for work-from-home or remote working at the moment?",
+    },
+    {
+      icon: "Krish Technolabs",
+      title: "What are the official working hours and attendance policies??",
+      description: "",
+      message: "What are the official working hours and attendance policies??",
+    },
+    {
+      icon: "Awards",
+      title: "What is the performance review cycle followed by the organization?",
+      description: "",
+      message: "What is the performance review cycle followed by the organization?",
     },
   ]
 
