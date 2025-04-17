@@ -61,7 +61,7 @@ export default function ChatInterface() {
   ]
 
   return (
-    <div className="flex items-center p-2 justify-center h-screen bg-white text-black">
+    <div className="flex items-center p-2 justify-center h-screen bg-white text-black chatbot-container ">
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}

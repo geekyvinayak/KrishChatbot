@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+ 
+.chatbot-container {
+
+
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
 
 .bot-message {
   align-self: flex-start;
